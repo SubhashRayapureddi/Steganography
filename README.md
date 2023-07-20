@@ -1,1 +1,8 @@
 # Steganography
+Steganography is the art of concealing secret information within seemingly innocuous carriers, such as images, audio files, or text, in order to ensure that the existence of the hidden message remains undetected by observers. By exploiting the limited human perception of minor data changes, steganography embeds the covert data in the least significant parts of multimedia files or employs more advanced algorithms for concealment. While it finds legitimate applications in secret communication, copyright protection, and watermarking, it also poses risks for malicious activities like smuggling sensitive information or aiding cyber-attacks. Steganalysis techniques aim to detect hidden data, leading to an ongoing technological race between steganographers and those trying to uncover concealed messages, making it a continually evolving field with various applications in cybersecurity and privacy protection.
+In this end to end steganography model we are using the image data 
+The image which need to be safely transmitts with in the communication medium is called as secret image.
+The secret image is embeded with the cover image(another image which has no sensitive data) using the embedding network.
+After the merging of the images the product image is stego image which has properties of both cover image and secret image , but when it transmitts in any medium the cover image is seen by any intruder.
+After the stego image is received by the reciever the image has been decoded by the decoding network.
+The decoding network seggregates the stego image into cover image and secret image.
